@@ -1,0 +1,9 @@
+h1 {
+    color: black;
+    margin: auto;
+    font-family: 'Amatic SC', cursive;
+}
+main {
+    max-width: 960px;
+    margin: auto;
+}

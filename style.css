@@ -1,9 +1,63 @@
-h1 {
+body {
     color: black;
-    margin: auto;
     font-family: 'Amatic SC', cursive;
+    background: #FBEAEA;
 }
-main {
-    max-width: 960px;
-    margin: auto;
+
+h1 {
+    font-size: 3em;
+    
 }
+
+p.large {
+    font-size: 2em;
+}
+
+.center {
+    text-align: center;
+}
+#box {
+    width: 600px;
+    margin: 5% auto;
+    border:#ccc 1px solid;
+    background: white;
+}
+.title {
+    padding: 5px;
+    background: linear-gradient(to right, #06beb6, #48b1bf);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+small {
+    font-size: 14px;
+    cursor: pointer;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    color: steelblue;
+    font-size: 18px;
+    text-align: center;
+    display: none;
+}
+ul {
+    padding: 15px;
+    
+}
+ul li {
+    list-style: none;
+    padding: 10px;
+}
+ul li:nth-child(2n) {
+    background: #f4f4f4;
+    border-left: 4px solid #000;
+}
+span {
+    color: red;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+

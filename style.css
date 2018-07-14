@@ -59,5 +59,9 @@ span {
     font-size: 22px;
     cursor: pointer;
 }
+button {
+   background: #FBEAEA;
+   font-family: 'Amatic SC', cursive;
+}
 
 

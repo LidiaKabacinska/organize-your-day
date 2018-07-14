@@ -1,10 +1,10 @@
-var editSmall = document.querySelector("small");
+var editButton = document.querySelector("button");
 var Textinput = document.querySelector("input");
 var span = document.querySelectorAll("span");
 var input = document.querySelector("input[type='text']");
 
-editSmall.addEventListener("click", function() {
-Textimput.style.display="block";
+editButton.addEventListener("click", function() {
+Textinput.style.display="block";
 });
 
 input.onkeypress = (function(evt) {
@@ -12,6 +12,7 @@ input.onkeypress = (function(evt) {
         var Todo = document.createElement("LI");
         var TodoText = document.createTextNode(this.value);
         Todo.appendChild(TodoText);
+        Todo.innerHTML = "<span>&times;</span> " + TodoText;
         document.getElementById("text-holder").appendChild(Todo);
     }
 })

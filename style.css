@@ -8,6 +8,9 @@ h1 {
     font-size: 3em;
     
 }
+h2 {
+    font-weight: bold;
+}
 
 p.large {
     font-size: 2em;
@@ -37,10 +40,13 @@ input {
     width: 100%;
     box-sizing: border-box;
     padding: 15px;
-    color: steelblue;
+    color: black;
     font-size: 18px;
     text-align: center;
     display: none;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+
 }
 ul {
     padding: 15px;
@@ -62,6 +68,11 @@ span {
 button {
    background: #FBEAEA;
    font-family: 'Amatic SC', cursive;
+   font-weight: bold;
 }
+#text-holder {
+    font-weight: bold;
+}
+
 
 

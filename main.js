@@ -11,8 +11,8 @@ input.onkeypress = (function(evt) {
     if (evt.which == 13) {
         var Todo = document.createElement("LI");
         var TodoText = document.createTextNode(this.value);
+        TodoText.innerHTML = "<span>&times;</span> " + Todo;
         Todo.appendChild(TodoText);
-        Todo.innerHTML = "<span>&times;</span> " + TodoText;
         document.getElementById("text-holder").appendChild(Todo);
     }
 })

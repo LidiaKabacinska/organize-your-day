@@ -18,20 +18,22 @@
         <div id="box" class="container">
         <section class="todos">
                 <div class="title">
-                    <h2>To Do List <button>Add!</button></h2> 
+                    <h2>To Do List</h2> 
+                    <button>+ ADD A NEW TASK</button>
                 </div>
                 <div class="input-Ctrl">
                     <input type="text" placeholder="please type something">
                 </div>
                 <div class="hold">
                     <ul id="text-holder">
-                        <li><span>&times;</span>Coding</li>
-                        <li><span>&times;</span>Reading</li>
-                        <li><span>&times;</span>Cooking</li>
-                        <li><span>&times;</span>Dusting</li>                   
+                        <li><span onclick="removeItem(this)">&#x2718;</span>Coding</li>
+                        <li><span onclick="removeItem(this)">&#x2718;</span>Reading</li>
+                        <li><span onclick="removeItem(this)">&#x2718;</span>Cooking</li>
+                        <li><span onclick="removeItem(this)">&#x2718;</span>Dusting</li>                   
+                                           
                     </ul>
                 </div>
-            </div>
+        </div>
         </section>
     </main>
     <footer class="center">
@@ -40,8 +42,8 @@
             <a href="https://www.facebook.com/"> <img src="pics/facebook.png" alt="facebook icon"> </a>
             <a href="https://www.instagram.com"> <img src="pics/instagram.png" alt="instagram icon"> </a>
             <a href="https://twitter.com"> <img src="pics/twitter.png" alt="twitter icon"> </a>
+        </div>
     </footer>
-    </div>
     <script src="main.js"></script>
 </body>
 </html>
